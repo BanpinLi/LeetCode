@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class TreeTools {
     //这是一个工具类，用来对树进行操作的
