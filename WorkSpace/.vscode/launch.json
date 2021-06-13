@@ -6,9 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "Launch Main",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "Main",
+            "projectName": "WorkSpace_c2c47c11"
         }
     ]
 }
