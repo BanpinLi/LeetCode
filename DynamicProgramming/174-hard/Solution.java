@@ -14,7 +14,7 @@ class Solution {
         }
         // 初始化行
         for (int j = n - 2; j >= 0; j--) {
-            dp[m - 1][j] = Math.max(dp[m - 1][j + 1], 1);
+            dp[m - 1][j] = Math.max(dp[m - 1][j + 1] - dungeon[m - 1][j], 1);
         }
 
         for (int i = m - 2; i >= 0; i--) {
